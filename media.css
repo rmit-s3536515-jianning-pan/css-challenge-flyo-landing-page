@@ -1,0 +1,62 @@
+@media (min-width:375px) and (max-width:1440px){
+    .banner{
+        flex-direction: column;
+    }
+    .right-box{
+        order:1;
+        margin-bottom:1rem;
+    }
+    .left-box{
+        order:2;
+    }
+    .left-box p,.left-box h1{
+        margin-left: auto;
+        margin-right:auto;
+        text-align: center;
+    }
+    .email-form{
+        flex-direction: column;
+    }
+    .email-form input{
+        margin-right: 0;
+        margin-bottom:1rem;
+    }
+
+    .productive{
+        flex-direction: column;
+    }
+
+    .flyo-link{
+        display: inline-block;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .quotation{
+        width:100%;
+    }
+
+    .access{
+        flex-direction: column;
+    }
+    .early-access .left-box{
+        order:1;
+    }
+    .early-access .right-box{
+        order:2;
+    }
+    .access-form{
+        width:100%;
+    }
+    .access-form input,.access-form button{
+        width:100%;
+    }
+
+    .footer-lists{
+        flex-direction: column;
+    }
+    .footer-lists ul{
+        margin-bottom:2rem;
+        font-size:2rem;
+    }
+}
